@@ -1,0 +1,453 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		962AA7BB1E319B78009BCAE7 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 962AA7AE1E319B78009BCAE7 /* Info.plist */; };
+		962AA7BC1E319B78009BCAE7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 962AA7B01E319B78009BCAE7 /* Assets.xcassets */; };
+		962AA7D91E319E07009BCAE7 /* WFDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = 962AA7C81E319E07009BCAE7 /* WFDatabase.m */; };
+		962AA7DA1E319E07009BCAE7 /* WFDBManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 962AA7CA1E319E07009BCAE7 /* WFDBManager.m */; };
+		962AA7DB1E319E07009BCAE7 /* WFDBUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 962AA7CC1E319E07009BCAE7 /* WFDBUtil.m */; };
+		962AA7DC1E319E07009BCAE7 /* WFTableInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 962AA7CE1E319E07009BCAE7 /* WFTableInfo.m */; };
+		962AA7DD1E319E07009BCAE7 /* WFTableManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 962AA7D01E319E07009BCAE7 /* WFTableManager.m */; };
+		962AA7EA1E319E48009BCAE7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 962AA7E31E319E48009BCAE7 /* AppDelegate.m */; };
+		962AA7EB1E319E48009BCAE7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 962AA7E41E319E48009BCAE7 /* main.m */; };
+		962AA7EC1E319E48009BCAE7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 962AA7E61E319E48009BCAE7 /* LaunchScreen.storyboard */; };
+		962AA7ED1E319E48009BCAE7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 962AA7E71E319E48009BCAE7 /* Main.storyboard */; };
+		962AA7EE1E319E48009BCAE7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 962AA7E91E319E48009BCAE7 /* ViewController.m */; };
+		962AA8081E31A028009BCAE7 /* WFTestInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 962AA8071E31A028009BCAE7 /* WFTestInfo.m */; };
+		C041862C2DB7D5E457EDA9D1 /* libPods-WFDatabase.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B1AE16ADE6270E7D65403FB /* libPods-WFDatabase.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2B1AE16ADE6270E7D65403FB /* libPods-WFDatabase.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WFDatabase.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		38183F55368223B446584819 /* Pods-WFDatabase.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WFDatabase.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WFDatabase/Pods-WFDatabase.debug.xcconfig"; sourceTree = "<group>"; };
+		5D9FA2178B7382E7B416217C /* Pods-WFDatabase.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WFDatabase.release.xcconfig"; path = "Pods/Target Support Files/Pods-WFDatabase/Pods-WFDatabase.release.xcconfig"; sourceTree = "<group>"; };
+		962AA7931E319A0C009BCAE7 /* WFDatabase.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WFDatabase.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		962AA7AE1E319B78009BCAE7 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		962AA7B01E319B78009BCAE7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		962AA7C71E319E07009BCAE7 /* WFDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WFDatabase.h; sourceTree = "<group>"; };
+		962AA7C81E319E07009BCAE7 /* WFDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WFDatabase.m; sourceTree = "<group>"; };
+		962AA7C91E319E07009BCAE7 /* WFDBManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WFDBManager.h; sourceTree = "<group>"; };
+		962AA7CA1E319E07009BCAE7 /* WFDBManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WFDBManager.m; sourceTree = "<group>"; };
+		962AA7CB1E319E07009BCAE7 /* WFDBUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WFDBUtil.h; sourceTree = "<group>"; };
+		962AA7CC1E319E07009BCAE7 /* WFDBUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WFDBUtil.m; sourceTree = "<group>"; };
+		962AA7CD1E319E07009BCAE7 /* WFTableInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WFTableInfo.h; sourceTree = "<group>"; };
+		962AA7CE1E319E07009BCAE7 /* WFTableInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WFTableInfo.m; sourceTree = "<group>"; };
+		962AA7CF1E319E07009BCAE7 /* WFTableManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WFTableManager.h; sourceTree = "<group>"; };
+		962AA7D01E319E07009BCAE7 /* WFTableManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WFTableManager.m; sourceTree = "<group>"; };
+		962AA7E21E319E48009BCAE7 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		962AA7E31E319E48009BCAE7 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		962AA7E41E319E48009BCAE7 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		962AA7E61E319E48009BCAE7 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		962AA7E71E319E48009BCAE7 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		962AA7E81E319E48009BCAE7 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		962AA7E91E319E48009BCAE7 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		962AA8061E31A028009BCAE7 /* WFTestInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WFTestInfo.h; sourceTree = "<group>"; };
+		962AA8071E31A028009BCAE7 /* WFTestInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WFTestInfo.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		962AA7901E319A0C009BCAE7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C041862C2DB7D5E457EDA9D1 /* libPods-WFDatabase.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3C8E6D26ACA79F3C44A1D9CC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				38183F55368223B446584819 /* Pods-WFDatabase.debug.xcconfig */,
+				5D9FA2178B7382E7B416217C /* Pods-WFDatabase.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		962AA78A1E319A0C009BCAE7 = {
+			isa = PBXGroup;
+			children = (
+				962AA7951E319A0C009BCAE7 /* WFDatabase */,
+				962AA7941E319A0C009BCAE7 /* Products */,
+				3C8E6D26ACA79F3C44A1D9CC /* Pods */,
+				F6A8E82D90F6DA60D4B707E0 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		962AA7941E319A0C009BCAE7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				962AA7931E319A0C009BCAE7 /* WFDatabase.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		962AA7951E319A0C009BCAE7 /* WFDatabase */ = {
+			isa = PBXGroup;
+			children = (
+				962AA7B51E319B78009BCAE7 /* src */,
+				962AA7AF1E319B78009BCAE7 /* res */,
+				962AA7AD1E319B78009BCAE7 /* cfg */,
+			);
+			path = WFDatabase;
+			sourceTree = "<group>";
+		};
+		962AA7AD1E319B78009BCAE7 /* cfg */ = {
+			isa = PBXGroup;
+			children = (
+				962AA7AE1E319B78009BCAE7 /* Info.plist */,
+			);
+			path = cfg;
+			sourceTree = "<group>";
+		};
+		962AA7AF1E319B78009BCAE7 /* res */ = {
+			isa = PBXGroup;
+			children = (
+				962AA7B01E319B78009BCAE7 /* Assets.xcassets */,
+			);
+			path = res;
+			sourceTree = "<group>";
+		};
+		962AA7B51E319B78009BCAE7 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				962AA7E11E319E48009BCAE7 /* base */,
+				962AA7E51E319E48009BCAE7 /* ui */,
+				962AA7C61E319E07009BCAE7 /* WFDB */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
+		962AA7C61E319E07009BCAE7 /* WFDB */ = {
+			isa = PBXGroup;
+			children = (
+				962AA7C71E319E07009BCAE7 /* WFDatabase.h */,
+				962AA7C81E319E07009BCAE7 /* WFDatabase.m */,
+				962AA7C91E319E07009BCAE7 /* WFDBManager.h */,
+				962AA7CA1E319E07009BCAE7 /* WFDBManager.m */,
+				962AA7CB1E319E07009BCAE7 /* WFDBUtil.h */,
+				962AA7CC1E319E07009BCAE7 /* WFDBUtil.m */,
+				962AA7CD1E319E07009BCAE7 /* WFTableInfo.h */,
+				962AA7CE1E319E07009BCAE7 /* WFTableInfo.m */,
+				962AA7CF1E319E07009BCAE7 /* WFTableManager.h */,
+				962AA7D01E319E07009BCAE7 /* WFTableManager.m */,
+			);
+			path = WFDB;
+			sourceTree = "<group>";
+		};
+		962AA7E11E319E48009BCAE7 /* base */ = {
+			isa = PBXGroup;
+			children = (
+				962AA7E21E319E48009BCAE7 /* AppDelegate.h */,
+				962AA7E31E319E48009BCAE7 /* AppDelegate.m */,
+				962AA7E41E319E48009BCAE7 /* main.m */,
+			);
+			path = base;
+			sourceTree = "<group>";
+		};
+		962AA7E51E319E48009BCAE7 /* ui */ = {
+			isa = PBXGroup;
+			children = (
+				962AA8061E31A028009BCAE7 /* WFTestInfo.h */,
+				962AA8071E31A028009BCAE7 /* WFTestInfo.m */,
+				962AA7E61E319E48009BCAE7 /* LaunchScreen.storyboard */,
+				962AA7E71E319E48009BCAE7 /* Main.storyboard */,
+				962AA7E81E319E48009BCAE7 /* ViewController.h */,
+				962AA7E91E319E48009BCAE7 /* ViewController.m */,
+			);
+			path = ui;
+			sourceTree = "<group>";
+		};
+		F6A8E82D90F6DA60D4B707E0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2B1AE16ADE6270E7D65403FB /* libPods-WFDatabase.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		962AA7921E319A0C009BCAE7 /* WFDatabase */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 962AA7AA1E319A0C009BCAE7 /* Build configuration list for PBXNativeTarget "WFDatabase" */;
+			buildPhases = (
+				3548C768E169BCBCB0C6C72C /* [CP] Check Pods Manifest.lock */,
+				962AA78F1E319A0C009BCAE7 /* Sources */,
+				962AA7901E319A0C009BCAE7 /* Frameworks */,
+				962AA7911E319A0C009BCAE7 /* Resources */,
+				19D69792F844A11A893F7A6F /* [CP] Embed Pods Frameworks */,
+				01369F17DC5C69B6BD24197D /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WFDatabase;
+			productName = WFDatabase;
+			productReference = 962AA7931E319A0C009BCAE7 /* WFDatabase.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		962AA78B1E319A0C009BCAE7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = Jason;
+				TargetAttributes = {
+					962AA7921E319A0C009BCAE7 = {
+						CreatedOnToolsVersion = 8.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 962AA78E1E319A0C009BCAE7 /* Build configuration list for PBXProject "WFDatabase" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 962AA78A1E319A0C009BCAE7;
+			productRefGroup = 962AA7941E319A0C009BCAE7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				962AA7921E319A0C009BCAE7 /* WFDatabase */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		962AA7911E319A0C009BCAE7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				962AA7EC1E319E48009BCAE7 /* LaunchScreen.storyboard in Resources */,
+				962AA7BC1E319B78009BCAE7 /* Assets.xcassets in Resources */,
+				962AA7BB1E319B78009BCAE7 /* Info.plist in Resources */,
+				962AA7ED1E319E48009BCAE7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		01369F17DC5C69B6BD24197D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WFDatabase/Pods-WFDatabase-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		19D69792F844A11A893F7A6F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WFDatabase/Pods-WFDatabase-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3548C768E169BCBCB0C6C72C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		962AA78F1E319A0C009BCAE7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				962AA7EB1E319E48009BCAE7 /* main.m in Sources */,
+				962AA7DB1E319E07009BCAE7 /* WFDBUtil.m in Sources */,
+				962AA8081E31A028009BCAE7 /* WFTestInfo.m in Sources */,
+				962AA7EA1E319E48009BCAE7 /* AppDelegate.m in Sources */,
+				962AA7EE1E319E48009BCAE7 /* ViewController.m in Sources */,
+				962AA7DA1E319E07009BCAE7 /* WFDBManager.m in Sources */,
+				962AA7DD1E319E07009BCAE7 /* WFTableManager.m in Sources */,
+				962AA7D91E319E07009BCAE7 /* WFDatabase.m in Sources */,
+				962AA7DC1E319E07009BCAE7 /* WFTableInfo.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		962AA7A81E319A0C009BCAE7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		962AA7A91E319A0C009BCAE7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		962AA7AB1E319A0C009BCAE7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 38183F55368223B446584819 /* Pods-WFDatabase.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "$(SRCROOT)/WFDatabase/cfg/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wfchia.WFDatabase;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		962AA7AC1E319A0C009BCAE7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5D9FA2178B7382E7B416217C /* Pods-WFDatabase.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "$(SRCROOT)/WFDatabase/cfg/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wfchia.WFDatabase;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		962AA78E1E319A0C009BCAE7 /* Build configuration list for PBXProject "WFDatabase" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				962AA7A81E319A0C009BCAE7 /* Debug */,
+				962AA7A91E319A0C009BCAE7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		962AA7AA1E319A0C009BCAE7 /* Build configuration list for PBXNativeTarget "WFDatabase" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				962AA7AB1E319A0C009BCAE7 /* Debug */,
+				962AA7AC1E319A0C009BCAE7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 962AA78B1E319A0C009BCAE7 /* Project object */;
+}
